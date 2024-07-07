@@ -1,0 +1,16 @@
+id                                     NOT_NULL           MEDIUMINT                  PRIMARY_KEY             AUTO_INCREMENT
+marca                                  NOT_NULL           VARCHAR(50)       
+modello                                NOT_NULL           VARCHAR(50)
+anno                                   NOT_NULL           YEAR
+cilindrata                             NOT_NULL           SMALLINT
+potenza                                NOT_NULL           SMALLINT
+tipo_trasmissione                      NOT_NULL           VARCHAR(20)
+carburante                             NOT_NULL           VARCHAR(40)
+n_chilometri                           NOT_NULL           MEDIUMINT
+colore                                 NOT_NULL           VARCHAR(40)
+descrizione_auto                       NOT_NULL           TEXT
+data_acquisto_auto                     NOT_NULL           DATE
+data_ingresso_concessionario           NOT_NULL           DATE
+prezzo                                 NOT_NULL           FLOAT(10,2)
+n_proprietari                          NOT_NULL           TINYINT                    UNSIGNED               DEFAULT
+n_auto_concessionario                  NOT_NULL           TINYINT                    UNSIGNED               DEFAULT
