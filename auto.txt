@@ -6,11 +6,11 @@ cilindrata                             NOT_NULL           SMALLINT
 potenza                                NOT_NULL           SMALLINT
 tipo_trasmissione                      NOT_NULL           VARCHAR(20)
 carburante                             NOT_NULL           VARCHAR(40)
-n_chilometri                           NOT_NULL           MEDIUMINT
+n_chilometri                           NULL               MEDIUMINT
 colore                                 NOT_NULL           VARCHAR(40)
 descrizione_auto                       NOT_NULL           TEXT
-data_acquisto_auto                     NOT_NULL           DATE
+data_acquisto_auto                     NULL               DATE
 data_ingresso_concessionario           NOT_NULL           DATE
-prezzo                                 NOT_NULL           FLOAT(10,2)
-n_proprietari                          NOT_NULL           TINYINT                    UNSIGNED               DEFAULT
+prezzo                                 NOT_NULL           DECIMAL(10,2)
+n_proprietari                          NULL               TINYINT                    UNSIGNED               DEFAULT
 n_auto_concessionario                  NOT_NULL           TINYINT                    UNSIGNED               DEFAULT
